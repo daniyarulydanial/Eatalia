@@ -12,6 +12,7 @@ In our website we have 8 pages:
 ## Contributions to our project
 Design part was done by Raimkulova Taslima with animations and connections between pages and js logic was done by Daniyaruly Danial.
 ## Design of our project
+In main page we added responsive navigation bar which we then used in all other pages. Also there is animation with 2 blocks which moving to the right then to the left opposite to each other.
 ## Logic of our project
 ### Main page
 When main page is downloaded it is save the info about admin account into the local storage with key "adminInfo". Then it gets the item form local storage "active" where i store information about active account. If it is empty it returns empty object and you can see register and login pages. If it is not empty then it will show in navigation bar "Hi! 'username'". In main page there are two functions. First called checkAccount() where we check is there any active account which is logged in to go the user page. Second called checkLogin() to check if the user active and give him permission to go the menu page. That is why if not logged in then you cannot go to the user page or menu to make an order.
